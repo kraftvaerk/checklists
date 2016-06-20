@@ -1,1 +1,18 @@
-github pages
+<!doctype html>
+  <html>
+    <title>test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://jspm.io/system@0.19.js"></script>
+  <body>
+
+    <script>
+      System['import']('npm:jquery@^2.2.4').then(function($) {
+
+
+        console.log($.fn.jquery)
+
+
+      });
+    </script>
+</body>
